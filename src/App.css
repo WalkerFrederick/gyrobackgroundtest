@@ -1,6 +1,63 @@
-.App {
-  text-align: center;
+html,  body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
 }
+#root {
+  height: 100%;
+
+}
+.App {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.App-Background {
+  height: 100%;
+  width: 100%;
+  filter: blur(5.5rem);
+  z-index: 1;
+  position: absolute;
+  background: white;
+  overflow: hidden;
+}
+.circle {
+  position: absolute;
+  background: #60A5FA  ;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+#circle1 {
+  background: #6EE7B7  ;
+}
+#circle3 {
+  background: #F87171;
+}
+.App-Forground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: white;
+  opacity: 0;
+  z-index: 98;
+}
+img {
+  position: absolute;
+  z-index: 100;
+  top: 30px;
+  left: 30px;
+  height: 75px;
+}
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
