@@ -17,7 +17,7 @@ html,  body {
 .App-Background {
   height: 100%;
   width: 100%;
-  filter: blur(5.5rem);
+  filter: blur(4.5rem);
   z-index: 1;
   position: absolute;
   background: white;
